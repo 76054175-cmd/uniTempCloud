@@ -1,14 +1,14 @@
 {
-  "name": "cloud",
+  "name": "monolito",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "API REST monolítica: Usuarios, Productos y Pedidos",
+  "main": "src/server.js",
   "scripts": {
-    "test": "jest",
-    "start": "node server.js"
+    "start": "node src/server.js",
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
+  "author": "Luis Alberto Tecsi Huallpa",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
