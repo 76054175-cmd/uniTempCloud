@@ -35,3 +35,8 @@ npm test
 | GET | /usuarios | Lista de usuarios |
 | GET | /productos | Lista de productos |
 | GET | /pedidos | Lista de pedidos |
+
+## Microservicios
+
+La versión dividida en Usuarios (3001), Productos (3002) y Pedidos (3003), cada
+uno con su propia base de datos, está en [`microservicios/`](microservicios/README.md).
